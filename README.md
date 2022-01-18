@@ -152,7 +152,7 @@ TEST_COUNT=10
 | jest             | 0:22.19 | ?                         |
 | mocha --parallel | 0:20.68 | ?                         |
 
-- AVA has worse time performance, but adequate to unmatched speed (individual tests run in parallel)
+- AVA has the worst memory performance, but adequate to unmatched speed (individual tests run in parallel)
 - Mocha still has best memory requirements and outperforms Jest slightly in bot sequential nad parallel runs
 
 See [[wait.txt]](./res/wait.txt)
