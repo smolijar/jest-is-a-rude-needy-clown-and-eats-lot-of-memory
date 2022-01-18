@@ -1,0 +1,75 @@
+TEST_WAIT=0
+SUIT_COUNT=1000
+TEST_COUNT=100
+
+Command being timed: "npm run jest -- --runInBand"
+User time (seconds): 74.03
+System time (seconds): 4.11
+Percent of CPU this job got: 121%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 1:04.52
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 1571688
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 468974
+Voluntary context switches: 56645
+Involuntary context switches: 19907
+Swaps: 0
+File system inputs: 0
+File system outputs: 8
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
+Command being timed: "npm run mocha"
+User time (seconds): 8.62
+System time (seconds): 0.83
+Percent of CPU this job got: 123%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.63
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 471560
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 124019
+Voluntary context switches: 3690
+Involuntary context switches: 3088
+Swaps: 0
+File system inputs: 0
+File system outputs: 8
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
+Command being timed: "npm run ava"
+User time (seconds): 838.95
+System time (seconds): 38.70
+Percent of CPU this job got: 169%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 8:38.42
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 451144
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 9209390
+Voluntary context switches: 808601
+Involuntary context switches: 520517
+Swaps: 0
+File system inputs: 0
+File system outputs: 16
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
