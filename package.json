@@ -6,7 +6,8 @@
   "scripts": {
     "jest": "jest ./jest --runInBand --forceExit",
     "mocha": "mocha mocha -f test.js --exit",
-    "ava": "ava ava/*.test.js"
+    "ava": "ava ava/*.test.js",
+    "tap": "tap tap/*.test.js --no-coverage --jobs=1"
   },
   "keywords": [],
   "author": "",
