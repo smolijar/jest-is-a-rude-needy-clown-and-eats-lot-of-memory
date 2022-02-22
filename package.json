@@ -7,6 +7,7 @@
     "jest": "jest ./jest --runInBand --forceExit",
     "mocha": "mocha mocha -f test.js --exit",
     "ava": "ava ava/*.test.js",
+    "vitest": "vitest run vitest/*.test.js",
     "tap": "tap tap/*.test.js --no-coverage --jobs=1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "ava": "^4.0.1",
     "jest": "^27.4.7",
     "mocha": "^9.1.3",
-    "tap": "^15.1.6"
+    "tap": "^15.1.6",
+    "vitest": "^0.5.1"
   }
 }

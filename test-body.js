@@ -1,6 +1,6 @@
 
 module.exports = async () => {
-    await new Promise(resolve => setTimeout(resolve, Number(process.env.TEST_WAIT) || 0))
+    await new Promise(resolve => setInterval(resolve, Number(process.env.TEST_WAIT) || 0))
     // return [
     //     // import lot of modules
     //     require('path').join(__dirname, __filename),
